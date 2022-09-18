@@ -104,4 +104,4 @@ theme: landscape
 deploy:
   type: git
   repository: git@github.com:SLONGkang/SLONGkang.github.io.git
-  brance: main
+  brance: master
