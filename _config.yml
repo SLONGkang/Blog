@@ -3,13 +3,13 @@
 ## Source: https://github.com/hexojs/hexo/
 
 # Site
-title: Hexo
+title: KongFuKang-功夫康
 subtitle: ''
-description: ''
-keywords:
-author: John Doe
-language: en
-timezone: ''
+description: 'For Whatever You Want'
+keywords: 功夫康
+author: 功夫康
+language: zh-CN
+timezone: Asia/Shanghai
 
 # URL
 ## Set your site url here. For example, if you use GitHub Page, set url as 'https://username.github.io/project'
@@ -56,6 +56,16 @@ prismjs:
   line_number: true
   tab_replace: ''
 
+
+#Music
+aplayer:
+  asset_inject: true
+  cdn: https://cdn.jsdelivr.net/npm/aplayer/dist/APlayer.min.js  # 引用 APlayer.js 外部 CDN 地址 (默认不开启)
+  style_cdn: https://cdn.jsdelivr.net/npm/aplayer/dist/APlayer.min.css
+  meting: true       # MetingJS 支持
+  meting_cdn: https://cdn.jsdelivr.net/npm/meting/dist/Meting.min.js # 引用 Meting.js 外部 CDN 地址 (默认不开启)
+
+
 # Home page setting
 # path: Root path for your blogs index page. (default = '')
 # per_page: Posts displayed per page. (0 = disable pagination)
@@ -97,11 +107,10 @@ ignore:
 # Extensions
 ## Plugins: https://hexo.io/plugins/
 ## Themes: https://hexo.io/themes/
-theme: landscape
-
+theme: butterfly
 # Deployment
 ## Docs: https://hexo.io/docs/one-command-deployment
 deploy:
   type: git
-  repository: git@github.com:SLONGkang/SLONGkang.github.io.git
-  brance: master
+  repository: https://github.com/SLONGkang/slongkang.github.io.git
+  brance: main
