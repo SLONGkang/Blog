@@ -6,7 +6,7 @@ menu:
   主页: / || fas fa-home
   分类: /archives/ || fas fa-archive
   标签: /tags/ || fas fa-tags
-  说说: /artitalk/ || fa-solid fa-comment
+  影集: /image/ || fa-solid fa-images
   娱乐||fas fa-list:
     Music: /music/ || fas fa-music
     Movie: /movies/ || fas fa-video
