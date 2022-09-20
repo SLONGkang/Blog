@@ -4,9 +4,9 @@
 
 # Site
 title: KongFuKang-功夫康
-subtitle: ''
+subtitle: '拖延症患者'
 description: 'For Whatever You Want'
-keywords: 功夫康
+keywords: Programmer
 author: 功夫康
 language: zh-CN
 timezone: Asia/Shanghai
@@ -114,3 +114,36 @@ deploy:
   type: git
   repository: https://github.com/SLONGkang/slongkang.github.io.git
   brance: main
+
+#movie
+douban:
+  user: 2374908  #262918073
+  builtin: true
+  book:
+    title: 'Books'
+    quote: '看一本书，一次大脑的运动'
+    meta: true
+    comments: true
+    top_img: https://s2.loli.net/2022/09/20/gcMIF98jNbyUhLi.jpg
+    aside: true
+    path: books
+    limit:
+  movie:
+    title: 'Movies'
+    quote: '看一部电影，又一次重生'
+    meta: true
+    comments: true
+    top_img: https://s2.loli.net/2022/09/20/gcMIF98jNbyUhLi.jpg
+    aside: true
+    path: movies
+    limit:
+  game:
+    title: 'Games'
+    quote: '一个游戏，一次探索'
+    meta: true
+    comments: true
+    top_img: https://s2.loli.net/2022/09/20/gcMIF98jNbyUhLi.jpg
+    aside: true
+    path: games
+    limit:
+  timeout: 10000 

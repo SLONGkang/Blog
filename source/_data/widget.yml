@@ -1,0 +1,7 @@
+bottom:
+  - class_name: user-map
+    id_name: user-map
+    name: IP Range
+    icon: fa-solid fa-location-dot
+    order: 
+    html: <script type="text/javascript" id="clstr_globe" src="//clustrmaps.com/globe.js?d=ElSdTPTw5oKWCPMuFEjhbYr0_hqqF-9U9VUTDesISq8"></script>

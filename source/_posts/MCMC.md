@@ -1,11 +1,15 @@
 ---
 title: MCMC
 date: 2022-09-18 22:58:45
-tags: "采样"
+tags: 
+	- 采样
+	- 机器学习
 cover: https://th.bing.com/th/id/R.93252e6d15f6d90dcc25369299b843be?rik=Df2QCnmVKTGiNw&pid=ImgRaw&r=0
 description: 蒙特卡洛采样和马尔科夫链的结合使用
-copyright_author: 功夫康
+copyright_author: KongFuKang-功夫康
 copyright_author_href: https://kongfukang.com/
+copyright_url: https://kongfukang.com/4000/2022/09/18/MCMC/
+copyright_info: 本博客所有文章除特别声明外，均采用<a href = 'https://creativecommons.org/licenses/by-nc-sa/4.0/' >CC BY-NC-SA 4.0</a> 许可协议。转载请注明来自 KongFuKang-功夫康！
 ---
 二元分布：
 ```python
